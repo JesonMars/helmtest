@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: docker.io/jackzhang412/springboot-demo
-  tag: {{ .freightMap["springboot-demo"].tag }}
+  tag: v1
   pullPolicy: IfNotPresent
 
 service:
